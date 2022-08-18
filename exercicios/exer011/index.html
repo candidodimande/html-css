@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <style>
+       .esp {
+           width: 600px;
+           text-align: center;
+           margin: auto;
+
+       }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <picture>
+        <source  media="(max-width: 750px)"  srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+   <audio preload="metadata" autoplay controls loop>
+        <source src="midia/sdala_b_paige_salt_letswai_official_audio_mp3_75283.mp3" type="audio/mpeg">
+        <source src="midia/sdala_b_paige_salt_letswai_official_audio_mp3_75283.ogg" type="audio/ogg">
+        <source src="midia/sdala_b_paige_salt_letswai_official_audio_mp3_75283.wav" type="audio/wav">
+        <p>infelizmente o seu navegador nao consegue reproduzidir audios. <a href="midia/sdala_b_paige_salt_letswai_official_audio_mp3_75283.mp3">clique aqui para baixar o MP3</a></p>
+   </audio> <br>
+   <a href="midia/sdala_b_paige_salt_letswai_official_audio_mp3_75283.mp3" download="sdala_b_paige_salt_letswai_official_audio_mp3_75283" type="application.mp3">download mp3</a>
+</body>
+</html>

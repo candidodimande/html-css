@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(29, 28, 28)
+}
+
+
+main {
+    width: 600px;
+    margin: auto;
+}
+p { 
+    text-align: center;
+}
+
+h1 {
+    color: rgb(192, 183, 183);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(34, 33, 33);
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead, tfoot {
+            background-color: rgba(0, 0, 0, 0.767);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -2px;
+            background-color: rgba(0, 0, 0, 0.929);;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(0, 0, 0, 0.373);
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            background-color: rgba(128, 0, 0, 0.22);
+            padding: 10px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    div#container {
+        width: 50vw;
+        overflow-x: auto;
+    }        
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, inventore doloremque a soluta deleniti, exercitationem quaerat minus velit necessitatibus voluptates illum labore quam, nisi ea accusantium ad. Laudantium, atque enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit quaerat repudiandae cupiditate, excepturi ea culpa aliquid, nulla repellendus eius inventore eos exercitationem temporibus in laudantium, praesentium iure explicabo quam!</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amazon Echo</td>
+                    <td>01</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>03</td>
+                    <td>07</td>
+                    <td>03</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>20</td>
+                    <td>16</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(165, 42, 42, 0.534);
+            margin: 0px;
+        }
+        
+        header {
+            background-color: rgba(128, 0, 0, 0.349);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: 2px 2px 2px 2px rgb(128, 58, 58);
+        }
+
+        h1#especial {
+            text-align: center;
+            box-shadow: 2px 2px 2px 2px rgb(82, 38, 38);
+        }
+        
+        nav{
+            background-color: rgba(66, 18, 18, 0.26);
+            padding: 2px;
+            box-shadow: 2px 2px 2px 2px rgb(92, 41, 41);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgba(211, 211, 211, 0.562);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(92, 6, 6);
+        }
+
+        main {
+            background-color: rgba(128, 0, 0, 0.205);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+        }
+
+        article {
+            background-color: rgba(211, 211, 211, 0.562);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(61, 53, 53, 0.562);
+            padding: 5px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.425);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="especial">Meekness English Tips</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>      
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>politica</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>noticias sobre moz</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum excepturi doloribus laudantium, consequatur vel dolore necessitatibus, atque eos, sit quos nihil ex veritatis optio ipsam odit inventore itaque corrupti commodi?</p>
+                <aside>
+                    <p>Artigo escrito por Meekness</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desevolvido por CaD</p>
+    </footer>
+</body>
+</html>

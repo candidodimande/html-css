@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .nome {
+            background-color: grey;
+        }
+
+        col.cgroup {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="cgroup" span="2">
+            <!--<col class="idade">-->
+            <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>idade</th>
+                <th>profissao</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Tutora</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Mecánico</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
